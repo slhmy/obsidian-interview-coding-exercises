@@ -2,7 +2,7 @@
   "items": [
     {
       "type": "graph",
-      "ctime": 1738501323656,
+      "ctime": 1738502685545,
       "title": "Default Graph",
       "options": {
         "collapse-filter": true,
@@ -11,8 +11,23 @@
         "showAttachments": false,
         "hideUnresolved": false,
         "showOrphans": true,
-        "collapse-color-groups": true,
-        "colorGroups": [],
+        "collapse-color-groups": false,
+        "colorGroups": [
+          {
+            "query": "tag:#algorithm  ",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
+          },
+          {
+            "query": "tag:#sql  ",
+            "color": {
+              "a": 1,
+              "rgb": 14725458
+            }
+          }
+        ],
         "collapse-display": true,
         "showArrow": false,
         "textFadeMultiplier": 0,
@@ -24,7 +39,7 @@
         "linkStrength": 1,
         "linkDistance": 250,
         "scale": 1,
-        "close": true
+        "close": false
       }
     }
   ]
