@@ -1,0 +1,14 @@
+{
+    "markdownlint.config": {
+        "no-inline-html": {
+            "allowed_elements": [
+                "u",
+            ]
+        },
+        "MD041": false,
+        "MD010": false,
+        "MD009": false,
+        "MD028": false,
+        "MD007": false,
+    }
+}
