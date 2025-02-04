@@ -2,7 +2,7 @@
   "items": [
     {
       "type": "graph",
-      "ctime": 1738502685545,
+      "ctime": 1738674187478,
       "title": "Default Graph",
       "options": {
         "collapse-filter": true,
@@ -14,21 +14,28 @@
         "collapse-color-groups": false,
         "colorGroups": [
           {
-            "query": "tag:#algorithm  ",
+            "query": "[\"difficulty\":easy]",
             "color": {
               "a": 1,
-              "rgb": 14701138
+              "rgb": 5412832
             }
           },
           {
-            "query": "tag:#sql  ",
+            "query": "[\"difficulty\":medium]",
             "color": {
               "a": 1,
               "rgb": 14725458
             }
+          },
+          {
+            "query": "[\"difficulty\":hard]",
+            "color": {
+              "a": 1,
+              "rgb": 14701138
+            }
           }
         ],
-        "collapse-display": true,
+        "collapse-display": false,
         "showArrow": false,
         "textFadeMultiplier": 0,
         "nodeSizeMultiplier": 1,

@@ -1,6 +1,6 @@
 ---
 tags:
-  - grammar/cpp
+  - cpp/grammar
 date: 2025-02-02
 ---
 Usually we iterate through a range of values in the syntax of:
